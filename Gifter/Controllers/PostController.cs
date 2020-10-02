@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Gifter.Repositories;
 using Gifter.Models;
 using Microsoft.AspNetCore.HttpOverrides;
+using System.Globalization;
 
 namespace Gifter.Controllers
 {
@@ -75,6 +76,18 @@ namespace Gifter.Controllers
                 return NotFound();
             }
             return Ok(post);
+        }
+
+        [HttpGet("search")]
+        public IActionResult Search(string q, bool sortDesc)
+        {
+            return Ok(_postRepository.Search(q, sortDesc));
+        }
+
+        [HttpGet("hottest")]
+        public IActionResult Hottest(DateTime? since)
+        {
+            return Ok(_postRepository.Hottest(since));
         }
     }
 }
