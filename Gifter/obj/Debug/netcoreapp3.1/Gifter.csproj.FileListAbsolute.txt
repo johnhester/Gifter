@@ -43,3 +43,6 @@ C:\Users\heste\workspace\backEnd\book3\Gifter\Gifter\obj\Debug\netcoreapp3.1\Gif
 C:\Users\heste\workspace\backEnd\book3\Gifter\Gifter\obj\Debug\netcoreapp3.1\Gifter.dll
 C:\Users\heste\workspace\backEnd\book3\Gifter\Gifter\obj\Debug\netcoreapp3.1\Gifter.pdb
 C:\Users\heste\workspace\backEnd\book3\Gifter\Gifter\obj\Debug\netcoreapp3.1\Gifter.genruntimeconfig.cache
+C:\Users\heste\workspace\backEnd\book3\Gifter\Gifter\bin\Debug\netcoreapp3.1\client\package-lock.json
+C:\Users\heste\workspace\backEnd\book3\Gifter\Gifter\bin\Debug\netcoreapp3.1\client\package.json
+C:\Users\heste\workspace\backEnd\book3\Gifter\Gifter\bin\Debug\netcoreapp3.1\client\public\manifest.json
